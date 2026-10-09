@@ -3,11 +3,9 @@ operationId: signals_list_deletions
 summary: List Data Deletion Jobs
 
 description: |
-  To list signals data deletion jobs for your team, newest first, send a GET
-  request to `/v1/signals/deletions`. Results are paginated using
-  cursor-based pagination with `limit` and `after` parameters. To fetch the
-  next page, pass the `cursor` of the last edge (or `page_info.end_cursor`)
-  as `after`.
+  To list signals data deletion jobs for your team, send a GET request to
+  `/v1/signals/deletions`. Results are paginated using cursor-based pagination
+  with `limit` and `after` parameters.
 
 tags:
   - Signals
